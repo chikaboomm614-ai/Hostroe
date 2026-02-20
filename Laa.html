@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HP Mewah Style Oppo</title>
+<style>
+  /* Import font Cubron Grotesk */
+  @font-face {
+    font-family: 'CubronGrotesk';
+    src: url('Cubron Grotesk.otf') format('opentype');
+  }
+
+  body {
+    margin: 0;
+    font-family: 'CubronGrotesk', sans-serif;
+    background: linear-gradient(to bottom, #ffffff 0%, #000000 50%, #888888 100%);
+    color: #fff;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: left;
+  }
+
+  .fade-left {
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: fadeInLeft 1.2s forwards;
+  }
+
+  @keyframes fadeInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    max-width: 800px;
+  }
+
+  img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    margin: 20px 0;
+    display: block;
+  }
+
+  /* Tombol Liquid Glass */
+  .liquid-button {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    font-family: 'CubronGrotesk', sans-serif;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 4px 20px rgba(255,255,255,0.2);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .liquid-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 30px rgba(255,255,255,0.4);
+    transform: translateY(-3px);
+  }
+</style>
+</head>
+<body>
+
+<div class="container fade-left">
+  <h1>HP M1F Pro Max</h1>
+  <img src="M1F.png" alt="HP M1F Pro Max Mewah">
+  <p>
+    HP M1F Pro Max hadir sebagai puncak kemewahan teknologi smartphone. Dengan desain ultra-premium yang memukau,  
+    finishing halus, dan bodi yang ramping, perangkat ini menghadirkan aura megah sekaligus elegan. Detail setiap lekukan,  
+    kualitas layar yang menawan, dan kesan futuristiknya mempertegas bahwa ini adalah HP kelas atas yang memanjakan mata.
+  </p>
+</div>
+
+<div class="container fade-left" style="animation-delay: 0.5s;">
+  <h2>HP M2F</h2>
+  <img src="M2F.png" alt="HP M2F Bagus">
+  <p>
+    HP M2F menonjol dengan keindahan desain yang memikat. Garis-garis bodi yang presisi, pilihan warna elegan,  
+    dan tampilan mewah membuatnya begitu istimewa. Meski fitur masih coming soon, pesona visual dan kualitas build  
+    menegaskan HP ini sebagai karya premium, siap menjadi simbol prestise bagi penggunanya.
+  </p>
+  <!-- Tombol Liquid Glass -->
+  <a href="#" class="liquid-button">Beli Sekarang</a>
+</div>
+
+</body>
+</html>
